@@ -1,7 +1,7 @@
 
 services:
   postgres:
-    image: postgres:15
+    image: postgres:16-alpine
     container_name: fitness-postgres
     environment:
       POSTGRES_DB: fitness_db
@@ -11,5 +11,6 @@ services:
       - "5432:5432"
     volumes:
       - postgres_data:/var/lib/postgresql/data
-    networks:
-      - fitness-network
+
+volumes:
+  postgres_data:
