@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: activityservice
+  data:
+    mongodb:
+      uri: mongodb://root:password@localhost:27017/admin
+      database: fitness_activity_db
