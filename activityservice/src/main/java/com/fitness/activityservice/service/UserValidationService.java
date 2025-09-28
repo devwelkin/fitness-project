@@ -15,6 +15,6 @@ public class UserValidationService {
 
     public Mono<Boolean> validateUser(String userId) {
         return userServiceWebClient.get()
-                .uri("/api/users/7cc9ab83-3743-4db2-9863-09a83de7ea89/validate")
+                .uri("/api/users/7cc9ab83-3743-4db2-9863-09a83de7ea89/ validate")
     }
 }
