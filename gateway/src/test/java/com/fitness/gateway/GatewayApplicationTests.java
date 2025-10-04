@@ -1,10 +1,10 @@
-package com.fitness.gateaway;
+package com.fitness.gateway;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class GateawayApplicationTests {
+class GatewayApplicationTests {
 
 	@Test
 	void contextLoads() {
